@@ -23,7 +23,8 @@ def replace(old_path,new_path, dic):
     zout.close()
     zin.close()
 
-#directory of the input and output folder containing the files that need to be replaced.
+#input - pass location for directory containing the files that need to be replaced.
+#output - pass location for where the output folder
 directory_input = r'C:\Users\AnushPoudel\Documents\Input'
 directory_output = r'C:\Users\AnushPoudel\Documents\Output'
 
